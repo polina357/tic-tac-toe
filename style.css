@@ -1,0 +1,40 @@
+body
+{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.playfield
+{
+    width: 250px;
+    height: 250px;
+}
+.field
+{
+    display: inline-flex;
+
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+.field:hover {
+	background-color: #f2f2f2;
+}
+button
+{
+    font-size: 1.5em;
+
+    display: block;
+
+    margin: 20px;
+    padding: 15px;
+}
+span
+{
+    font-size: 300%;
+
+    position: absolute;
+}
